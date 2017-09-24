@@ -1,10 +1,13 @@
 import React from 'react';
 import {Card, CardHeader, CardText} from 'material-ui/Card';
+import Registration from './Registration'
+
 
 class Main extends React.Component {
 	render() {
 		return (
 			<div>
+			<Registration />
 				<Card>
 					<CardHeader><h3>Welcome!</h3></CardHeader>
 					<CardText style={{fontSize: '1em'}}>
